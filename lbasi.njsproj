@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef089a23-db2a-458d-a993-e96ec6f5fb6b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chapter6.ts</StartupFile>
+    <StartupFile>chapter7.ts</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -45,6 +45,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="chapter6.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="chapter7.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
   </ItemGroup>
