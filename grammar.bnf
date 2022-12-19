@@ -1,0 +1,10 @@
+program				::= compundStatement '.'
+compoundStatement	::= 'BEGIN' statementList 'END'
+statementList		::= statement (',' statement)*
+statement			::= compoundStatement | assignmentStatement | empty
+assignmentStatement ::= variable '=' expr
+empty				::= 'None'
+expr				::= term ('+'|'-' term)*
+term				::= factor ('*'|'/' factor)*
+factor				::= '+' factor | '-' factor | INTEGER | '(' expr ')' | variable
+variable			::= IDENTIFIER

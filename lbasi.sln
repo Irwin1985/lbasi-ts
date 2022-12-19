@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "lbasi", "lbasi.njsproj", "{EF089A23-DB2A-458D-A993-E96EC6F5FB6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD7F7D10-0527-4DF5-AD2E-3132793A2052}"
+	ProjectSection(SolutionItems) = preProject
+		grammar.bnf = grammar.bnf
+		sample.pas = sample.pas
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
